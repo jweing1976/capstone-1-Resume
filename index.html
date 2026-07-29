@@ -5,33 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
 </head>
+<style>
+  .two-column-list {
+    column-count: 2;      /* Splits the list into 2 columns */
+    column-gap: 40px;     /* Adds spacing between the columns */
+    list-style-position: inside; /* Ensures bullets stay inside the columns */
+  }
+</style>
+<style>
+        .lined-heading {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .lined-heading::before,
+        .lined-heading::after {
+            content: '';
+            flex: 1;
+            border-bottom: 2px solid #C5B35B; /* Line thickness and color */
+        }
+
+        .lined-heading:not(:empty)::before {
+            margin-right: 15px; /* Space between left line and text */
+        }
+
+        .lined-heading:not(:empty)::after {
+            margin-left: 15px; /* Space between right line and text */
+        }
+    </style>
 <body>
-<center><img src="./images/Profile_Pic_Blurred.jpg" height="150"></center>
-<center><h2>Jaime R Weingartner</h2></center>
+<center><img src="./images/Jaime-Professional-Profile-Pic.jpg" height="150"></center>
+<center><h2>Jaime Weingartner</h2></center>
 <center><h3><a href="../4.4 Capstone Project/contact.html">Contact Me</a></h3></center>
 <center><h3><a href="../4.4 Capstone Project/about.html">About Me</a></h3></center>
 
 <hr />
 <p>
-<center><b>PROFESSIONAL PROFILE SUMMARY</b></center>
+<center><b>HEALTHCARE SENIOR BUSINESS ANALYST</b></center>
 </p>
 <p>
-Experienced healthcare professional with a demonstrated history of working in business operations. Strong skill set in data manipulation and analysis, as well as, both Medicare and Medicaid Prospective Payment and Reimbursement. Proven analytical and critical thinking skills. Thrives working in fast paced environments with changing priorities while utilizing strong organizational, interpersonal, communication and technical skills such as Microsoft Office suite, Agile, Rally, Altassian Confluence, Slack, SQL, and SharePoint.
+15+ years of experience in healthcare business analysis supporting Medicaid, Medicare, payer, claim operations, reimbursement methodologies, and healthcare technology implementations. Enjoy solving complex business problems by connecting operational needs with practical system solutions that make work easier for clients and end users. Bring extensive experience translating CMS regulations, business requirements, and technical specifications into scalable solutions through requirements gathering, workflow analysis, documentation, SQL, data validation, UAT, and cross-functional collaboration. Trusted to partner with business stakeholders, development teams, QA, and clients to deliver compliant healthcare systems while supporting claims processing, provider enrollment, system modernization, and implementation initiatives.
 </p>
-<center><b>PROFESSIONAL EXPERIENCE</b></center>
-
-<b>Gainwell Technologies</b> – <i>McLean, VA – Sr. Professional Business Analyst (June 2022 – Present)</i>
-<p>As a Sr. Professional Senior Analyst, I am actively involved in the waterfall Design, Development, & Implementation (DDI) process whose primary goal is to successfully implement Gainwell’s Commercial Off-the-Shelf (COTS) claims adjudication & reimbursement solution to our State Medicaid clients.</p>
-<ul>
-<li>Participate in all phases of Gainwell’s Design, Development, & Implementation (DDI) process</li>
-<li>Participate, facilitate, and present (when applicable) in Requirements Validation (RV) Sessions</li>
-<li>Participate, facilitate, and present (when applicable) in breakout sessions when needed to perform deep dive into requirements needing further discussion and coordination</li>
-<li>Create, update, & maintain requirements in Application Lifecycle Management (ALM) application</li>
-<li>Create, update, & maintain the Business Requirements Document (BRD) & System Design Document (SDD)</li>
-<li>Perform analysis on requirements along with resources and information provided by our state client to determine gaps and preparing for testing, configuration, and delivery of Gainwell solution</li>
+<p><center><b>AREAS OF EXPERTISE</b></center></p>
+<ul class = "two-column-list">
+  <li>Business Analysis</li>
+  <li>Requirements Gathering</li>
+  <li>Workflow Analysis</li>
+  <li>Documentation</li>
+  <li>SQL & Data Validation</li>
+  <li>User Acceptance Testing (UAT)</li>
+  <li>Cross-Functional Collaboration</li>
+  <li>Healthcare Regulations (CMS, Medicaid, Medicare)</li>
+  <li>Claims Processing</li>
+  <li>Provider Enrollment</li>
+  <li>System Modernization</li>
+  <li>Implementation Initiatives</li>
+  <li>QNXT</li>
 </ul>
 
-<b>Burgess Group/HealthEdge</b> – <i>West Hartford, CT - Payment Policy Analyst II (Dec. 2020 – March 2022)</i>
+<center><h4 class="lined-heading">ACCOMPLISHMENTS</h4></center>
+<ul>
+    <li>Led business analysis activities for Medicaid claims and provider enrollment modernization initiatives, supporting proprietary healthcare applications, interface development, client demonstrations, and implementation readiness.</li>
+    <li>Managed approximately 70 business and system requirements within ALM, improving traceability, documentation quality, audit readiness, and delivery accuracy across Medicaid implementation projects.</li>
+    <li>Facilitated requirements validatin sessions, translating payer business processes, workflows, and regulatory requirements into functional specifications that aligned development and business teams.</li>
+    <li>Authored Business Requirements Documents, System Design Documents, Process Solution Guides, and technical artifacts supporting end-to-end healthcare system implementations.</li>
+    <li>Validated healthcare data using Microsoft Excel, SQL and SQL Server Management Studio, improving data accuracy, supporting troubleshooting efforts, and confirming application functionality throughout development and testing.</li>
+    <li>Improved Medicare inpatient and outpatient data validation efficiency to 100% by developing Excel and VBA automation tools that reduced manual review and strengthened quality control.</li>
+    <li>Supported more than 300 annual Medicare software releases by researching CMS regulations, assessing business impacts, creating UAT scenarios, and validating reimbursement and claims-related functionality.</li>
+    <li>Partnered with developers, QA teams, business stakeholders, and clients to investigate defects, document root causes, and resolve production issues, improving project delivery and application stability.</li>
+    <li>Delivered client demonstrations and educational webinars covering reimbursement updates, provider enrollment data, product enhancements, and regulatory changes, strengthening client adoption and stakeholder engagement.</li>
+    <li>Supported healthcare application modernization projects by coordinating API validation, interface development, workflow documentation, production support, and cross-functional implementation activities across Agile delivery teams.</li>
+</ul>
+<center><h4 class="lined-heading">CAREER EXPERIENCE</h4></center>
+
+<b>Sr. Business Analyst</b>, Acentra Health, McLean, VA (November 2025 – June 2026)
+<ul>
+<li>Support development of a proprietary web-based provider enrollment application for Georgia Medicaid, with focus on provider enrollment data, Medicare provider enrollment data, interface functionality, reporting, and documentation quality.</li>
+<li>Lead business analysis efforts for inbound and outbound interface projects, including client demos, defect tracking, change request coordination, requirement clarification, and delivery alignment.</li>
+<li>Maintain Medicaid Provider Enrollment Detailed System Design Documents in Confluence to support system enhancements, stakeholder visibility, development readiness, and compliance-driven documentation needs.</li>
+<li>Review, triage, and resolve 3 to 5 system defects weekly in JIRA, partnering with technical teams to clarify root causes, expected outcomes, severity, priority, and business impact.</li>
+<li>Support end-to-end development of a Reports API Proof of Concept to strengthen data delivery architecture, improve reporting efficiency, and validate technical feasibility.</li>
+<li>Analyze provider enrollment and PECOS data to support client demonstrations, system validation, requirement discussions, and product decision-making.</li>
+<li>Manage project documentation updates in SharePoint and Confluence, ensuring version control, accurate artifacts, and ready access for business, client, QA, and development teams.</li>
+<li>Participate in project meetings, status reviews, defect discussions, and cross-functional working sessions to keep deliverables aligned with timelines, dependencies, and stakeholder expectations.</li>
+</ul>
+<b>Sr. Professional Business Analyst</b>, Gainwell Technologies, McLean, VA (June 2022 – October 2025)
+<ul>
+<li>Supported large-scale Medicaid Design, Development, and Implementation initiatives for proprietary web-based claims adjudication and healthcare system applications, including Washington Medicaid support.</li>
+<li>Participated in all phases of the DDI process, including discovery, requirements validation, design documentation, application testing, defect review, implementation readiness, and post-development support.</li>
+<li>Facilitated and participated in five Requirements Validation sessions and five breakout sessions to resolve complex requirements, workflow questions, business rules, and system dependencies.</li>
+<li>Authored and maintained Business Requirements Documents, System Design Documents, Process Solution Guides, and supporting artifacts across full project lifecycles.</li>
+<li>Managed and updated approximately 70 requirements in Application Lifecycle Management, improving traceability, audit readiness, implementation accuracy, and stakeholder alignment.</li>
+<li>Leveraged SQL and SQL Server Management Studio to analyze data, support troubleshooting, validate backend logic, and confirm expected system behavior.</li>
+<li>Partnered with developers to troubleshoot backend issues, validate API responses through Swagger, maintain JSON files across application environments, and document workflows for cross-functional teams.</li>
+<li>Tested web-based application functionality, reported issues, supported defect triage, and helped reduce rework by documenting backend logic, reproducible steps, and expected outcomes.</li>
+<li>Supported Agile ceremonies, sprint planning, backlog refinement, stakeholder reviews, prioritization discussions, and process improvement efforts tied to healthcare operations and reporting.</li>
+</ul>
+
+<b>Payment Policy Analyst II</b>, Burgess Group/HealthEdge, West Hartford, CT (Dec. 2020 – March 2022)
 <p>As a Payment Policy Analyst II, I supported Burgess’s legacy & 2 web-based applications primarily focusing on Medicare OPPS/HOPD, Hospice, and State Medicaid Prospective Payment & Reimbursement. Successfully performs required regulatory updates to our Prospective Payment product line in an Agile SDLC environment using Agile and Kanban.
 </p> 
 <ul>
